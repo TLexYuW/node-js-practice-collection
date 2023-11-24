@@ -2,9 +2,9 @@ console.log(global);
 
 const os = require('os');
 const path = require('path');
-const math = require("./math");
+const math = require("./maths/math");
 const { add, subtract, multiply, divide } = require("./math");
-const { mod } = require("./math2");
+const { mod } = require("./maths/math2");
 
 console.log(os.type());
 console.log(os.version());

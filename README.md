@@ -7,5 +7,8 @@
   - [Building A REST API With Node, Express, TypeScript & MongoDB + Authentication](https://youtu.be/b8ZUb_Okxro?si=4hP3sQI6V3Aav83a)
 - node-lambda
   - Express, Serverless-http, Lambda, AWS JS SDK
+  - Athena
+    - [athena-express](https://github.com/ghdna/athena-express)
+    - [SQL For AWS Athena](https://youtu.be/V21xjnHMOyk?si=OjdIQHtHt6ZZnYKf)
 - Docs
   - https://nodejs.org/dist/latest-v18.x/docs/api/
