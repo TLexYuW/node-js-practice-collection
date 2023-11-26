@@ -5,7 +5,6 @@ const AWS = require('aws-sdk');
 const AthenaExpress = require('athena-express');
 const { bigIntHandler } = require('./helpers/helper');
 
-
 require('dotenv').config()
 
 const app = express();

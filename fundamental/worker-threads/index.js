@@ -12,8 +12,8 @@ app.get("/non-blocking/", (req, res) => {
     res.status(200).send("This page is non-blocking")
 });
 
-app.get("/blocking/", async (req, res) => {
-    // /*
+app.get("/blocking/", (req, res) => {
+    /*
     const start = performance.now()
 
     const worker = new Worker("./worker.js");
@@ -30,17 +30,17 @@ app.get("/blocking/", async (req, res) => {
         console.log(err);
         res.status(404).send(`An error occured`);
     })
-    // */
+    */
 
-    /*
+    // /*
     let counter = 0;
     for (let i = 0; i < 20_000_000_000; i++) {
         counter++;
     }
-    res.status(200).send(`result is ${counter}`);
-    */
-});
 
+    res.status(200).send(`result is ${result}`);
+    // */
+});
 
 app.listen(port, () => {
     console.log(`App listening on port ${port}`)
