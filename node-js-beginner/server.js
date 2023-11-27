@@ -3,7 +3,7 @@ console.log(global);
 const os = require('os');
 const path = require('path');
 const math = require("./maths/math");
-const { add, subtract, multiply, divide } = require("./math");
+// const { add, subtract, multiply, divide } = require("./math");
 const { mod } = require("./maths/math2");
 
 console.log(os.type());
@@ -21,5 +21,5 @@ console.log("path.extname(__filename) = " + path.extname(__filename));
 console.log(path.parse(__filename));
 
 console.log(math.add(1, 1));
-console.log(subtract(5, 2));
+// console.log(subtract(5, 2));
 console.log(mod(10, 3));
