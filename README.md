@@ -11,5 +11,6 @@
   - Athena
     - [athena-express](https://github.com/ghdna/athena-express)
     - [SQL For AWS Athena](https://youtu.be/V21xjnHMOyk?si=OjdIQHtHt6ZZnYKf)
+    - [Get data from Amazon Athena with nodeJS - AWS SDK](https://medium.com/@vitaliyye/get-data-from-amazon-athena-with-nodejs-4519ddd2d6c5)
 - Docs
   - https://nodejs.org/dist/latest-v18.x/docs/api/

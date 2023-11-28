@@ -19,6 +19,7 @@
     "serverless-http": "^3.2.0"
   },
   "dependencies": {
+    "@aws-sdk/client-athena": "^3.458.0",
     "athena-express": "^7.1.5",
     "aws-sdk": "^2.1502.0",
     "body-parser": "^1.20.2",
