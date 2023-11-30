@@ -1,5 +1,5 @@
 # Ref
-- node-js-atguigu-2023/buffer 
+- node-js-atguigu-2023
   - [atguigu](https://www.youtube.com/playlist?list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP)
 - node-js-beginner
     - [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8?si=dAoM14iT8gMa2T0x)
@@ -12,5 +12,8 @@
     - [athena-express](https://github.com/ghdna/athena-express)
     - [SQL For AWS Athena](https://youtu.be/V21xjnHMOyk?si=OjdIQHtHt6ZZnYKf)
     - [Get data from Amazon Athena with nodeJS - AWS SDK](https://medium.com/@vitaliyye/get-data-from-amazon-athena-with-nodejs-4519ddd2d6c5)
+- node-express-swagger-demo
+  - [Swagger API documentation tutorial](https://youtu.be/dhMlXoTD3mQ?si=kS2kg1G7NUEsTRrB)
+  - [NodeJS Swagger API Documentation Tutorial Using Swagger JSDoc](https://youtu.be/S8kmHtQeflo?si=E0hFrnPnNtJ04JNJ)
 - Docs
   - https://nodejs.org/dist/latest-v18.x/docs/api/
