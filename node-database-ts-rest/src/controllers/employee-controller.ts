@@ -1,5 +1,4 @@
 import express from 'express';
-import { ResultSetHeader } from 'mysql2/promise';
 import { getAllEmployees, addOrEditEmployee, updateEmployee } from '../services/employee-service';
 
 export const employeeRoutes = express.Router();

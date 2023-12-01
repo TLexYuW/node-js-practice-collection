@@ -1,5 +1,4 @@
 import express from 'express';
-import { ResultSetHeader } from 'mysql2';
 import { mysqlpool } from '../db/mysql/db';
 import { getAllUsers, getUserById, deleteUserById } from '../services/user-service';
 

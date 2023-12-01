@@ -1,4 +1,3 @@
-import { Employee, User } from 'model/models';
 import { ResultSetHeader, FieldPacket } from 'mysql2';
 import { mysqlpool } from '../db/mysql/db';
 

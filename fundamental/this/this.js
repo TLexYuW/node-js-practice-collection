@@ -1,4 +1,4 @@
-console.log(this);
+console.log(this); // {}
 
 console.log("--------------------------------------------------------------")
 
@@ -24,28 +24,24 @@ const user2 = {
     getDetails: getUserDetails
 }
 
-console.log(getUserDetails.bind(user1));
+console.log(getUserDetails.bind(user1)); // [Function: bound getUserDetails] 
 
-const u1details = getUserDetails.bind(user1);
+const u1details = getUserDetails.bind(user1); 
 
-u1details();
-
-console.log("--------------------------------------------------------------")
-
-getUserDetails.call(user2);
-
-getUserDetails.call(user1, [1111, "errrrr"]);
+u1details(); // My name is emp1 and my age is 100, undefined
 
 console.log("--------------------------------------------------------------")
 
+getUserDetails.call(user2); // My name is emp2 and my age is 200, undefined
 
+getUserDetails.call(user1, [1111, "errrrr"]); // My name is emp1 and my age is 100, 1111,errrrr
 
 console.log("--------------------------------------------------------------")
 
-user1.getDetails();
+user1.getDetails(); // My name is emp1 and my age is 100, undefined
 
 console.log("--------------------------------------------------------------")
 
 const u = user1.getDetails;
 
-u();
+u(); // My name is undefined and my age is undefined, undefined
