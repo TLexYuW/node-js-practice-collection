@@ -1,8 +1,8 @@
 # Ref
-- node-js-atguigu-2023
-  - [atguigu](https://www.youtube.com/playlist?list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP)
-- node-js-beginner
-    - [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8?si=dAoM14iT8gMa2T0x)
+- fundamental
+  - [node-js-atguigu-2023](https://www.youtube.com/playlist?list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP)
+  - [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8?si=dAoM14iT8gMa2T0x)
+  - [Node.js Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY)
 - node-database-ts-rest
   - [Building A REST API With Node, Express, TypeScript & MongoDB + Authentication](https://youtu.be/b8ZUb_Okxro?si=4hP3sQI6V3Aav83a)
   - [Node.js + MySQL CRUD](https://youtu.be/YkBOkV0s5eQ?si=_RL8SJTpGhxfoK92)
